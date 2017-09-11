@@ -25,7 +25,6 @@ class AddVC: UIViewController {
         if enteredText.isEmpty ||  addTaskTextField?.text == "Enter your task"{
             let alert = UIAlertController(title: "Please Type Something", message: "Your entry was left blank.", preferredStyle: .alert)
             alert.addAction(UIAlertAction(title: "Okay", style: .default) { action in
-                
             })
             
             self.present(alert, animated: true, completion: nil)
@@ -44,11 +43,8 @@ class AddVC: UIViewController {
             let _ = navigationController?.popViewController(animated: true)
         }
         
-        
     }
     
     
-
-
 
 }

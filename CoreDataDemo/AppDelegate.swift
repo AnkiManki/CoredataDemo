@@ -91,6 +91,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-let task = Task(context: context)
 
