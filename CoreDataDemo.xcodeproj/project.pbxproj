@@ -13,6 +13,7 @@
 		9DB95BCD1F66BDB1002A3440 /* CoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DB95BCB1F66BDB1002A3440 /* CoreDataDemo.xcdatamodeld */; };
 		9DB95BCF1F66BDB1002A3440 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DB95BCE1F66BDB1002A3440 /* Assets.xcassets */; };
 		9DB95BD21F66BDB1002A3440 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DB95BD01F66BDB1002A3440 /* LaunchScreen.storyboard */; };
+		9DB95BDA1F66BEAA002A3440 /* AddVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB95BD91F66BEAA002A3440 /* AddVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		9DB95BCE1F66BDB1002A3440 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DB95BD11F66BDB1002A3440 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DB95BD31F66BDB1002A3440 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DB95BD91F66BEAA002A3440 /* AddVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				9DB95BD01F66BDB1002A3440 /* LaunchScreen.storyboard */,
 				9DB95BD31F66BDB1002A3440 /* Info.plist */,
 				9DB95BCB1F66BDB1002A3440 /* CoreDataDemo.xcdatamodeld */,
+				9DB95BD91F66BEAA002A3440 /* AddVC.swift */,
 			);
 			path = CoreDataDemo;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB95BDA1F66BEAA002A3440 /* AddVC.swift in Sources */,
 				9DB95BC71F66BDB1002A3440 /* ViewController.swift in Sources */,
 				9DB95BCD1F66BDB1002A3440 /* CoreDataDemo.xcdatamodeld in Sources */,
 				9DB95BC51F66BDB1002A3440 /* AppDelegate.swift in Sources */,
